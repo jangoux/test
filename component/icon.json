@@ -1,0 +1,53 @@
+{
+  "icon": {
+    "color": {
+      "action": {
+        "type": "color",
+        "value": "{color.foreground.action.default}"
+      },
+      "active": {
+        "type": "color",
+        "value": "{color.foreground.action.active}"
+      },
+      "default": {
+        "type": "color",
+        "value": "{color.foreground.on-light.secondary}",
+        "description": "Cor secundária para uso no foreground. Deve ser utilizada em texto corrido e outros elementos que necessitam destaque porém não possuem um nível hierárquico prioritário."
+      },
+      "on-dark": {
+        "type": "color",
+        "value": "{color.foreground.on-dark.primary}"
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.foreground.on-site}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.foreground.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.foreground.warning}"
+      },
+      "disabled": {
+        "nobg": {
+          "type": "color",
+          "value": "{color.foreground.disabled.nobg}"
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.foreground.disabled.default}"
+        }
+      },
+      "on-color": {
+        "type": "color",
+        "value": "{icon.color.on-dark}"
+      },
+      "on-dark-secondary": {
+        "type": "color",
+        "value": "{color.foreground.on-dark.secondary}"
+      }
+    }
+  }
+}

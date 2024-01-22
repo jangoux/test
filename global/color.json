@@ -1,0 +1,106 @@
+{
+  "color": {
+    "states": {
+      "info": {
+        "type": "color",
+        "value": "{color.primary.900}"
+      },
+      "success": {
+        "type": "color",
+        "value": "#33b469"
+      },
+      "warning": {
+        "type": "color",
+        "value": "#ef4444"
+      },
+      "attention": {
+        "type": "color",
+        "value": "#ffb82e"
+      }
+    },
+    "neutral": {
+      "100": {
+        "type": "color",
+        "value": "#1e2224"
+      },
+      "200": {
+        "type": "color",
+        "value": "#4f4f4f"
+      },
+      "300": {
+        "type": "color",
+        "value": "#585858"
+      },
+      "400": {
+        "type": "color",
+        "value": "#737373"
+      },
+      "500": {
+        "type": "color",
+        "value": "#969696"
+      },
+      "600": {
+        "type": "color",
+        "value": "#bdbdbd"
+      },
+      "700": {
+        "type": "color",
+        "value": "#e0e0e0"
+      },
+      "800": {
+        "type": "color",
+        "value": "#eeeeee"
+      },
+      "900": {
+        "type": "color",
+        "value": "#f7f7f7"
+      },
+      "950": {
+        "type": "color",
+        "value": "#fefefd"
+      }
+    },
+    "primary": {
+      "200": {
+        "type": "color",
+        "value": "#00203a"
+      },
+      "300": {
+        "type": "color",
+        "value": "#00345f",
+        "description": "Uso em situações de sobreposição  de containers à cor da marca da SEFA;\n\nCor de marca para diretorias, tribunais, etc."
+      },
+      "400": {
+        "type": "color",
+        "value": "#004a86",
+        "description": "Cor da marca, CTA"
+      },
+      "500": {
+        "type": "color",
+        "value": "#005faf",
+        "description": "Cor da marca, CTA"
+      },
+      "600": {
+        "type": "color",
+        "value": "#3278ca",
+        "description": "Cor da marca, CTA"
+      },
+      "700": {
+        "type": "color",
+        "value": "#72adff"
+      },
+      "800": {
+        "type": "color",
+        "value": "#a5c8ff"
+      },
+      "900": {
+        "type": "color",
+        "value": "#d4ecff"
+      },
+      "950": {
+        "type": "color",
+        "value": "#ebf3fa"
+      }
+    }
+  }
+}

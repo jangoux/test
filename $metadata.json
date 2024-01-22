@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "global/typography",
+    "global/color",
+    "global/layout",
+    "semantic/color",
+    "semantic/typography",
+    "semantic/typography-mobile",
+    "semantic/layout",
+    "component/text",
+    "component/icon"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "text": {
+    "color": {
+      "body": {
+        "type": "color",
+        "value": "{color.foreground.on-light.secondary}"
+      },
+      "title": {
+        "type": "color",
+        "value": "{color.foreground.on-light.primary}"
+      },
+      "action": {
+        "active": {
+          "type": "color",
+          "value": "{color.foreground.action.active}"
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.foreground.action.default}",
+          "description": "cor para actions em geral"
+        },
+        "on-site": {
+          "type": "color",
+          "value": "{color.foreground.action.on-site}",
+          "description": "cor para actions em geral"
+        }
+      },
+      "on-dark": {
+        "body": {
+          "type": "color",
+          "value": "{color.foreground.on-dark.secondary}"
+        },
+        "title": {
+          "type": "color",
+          "value": "{color.foreground.on-dark.primary}"
+        }
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.foreground.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.foreground.warning}"
+      },
+      "on-color": {
+        "type": "color",
+        "value": "{color.foreground.on-dark.primary}"
+      },
+      "description": {
+        "type": "color",
+        "value": "{color.foreground.on-light.terciary}"
+      }
+    }
+  }
+}

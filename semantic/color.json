@@ -1,0 +1,361 @@
+{
+  "color": {
+    "border": {
+      "hover": {
+        "type": "color",
+        "value": "{color.neutral.100}"
+      },
+      "action": {
+        "type": "color",
+        "value": "{color.primary.500}",
+        "discrete": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        }
+      },
+      "active": {
+        "type": "color",
+        "value": "{color.primary.600}"
+      },
+      "default": {
+        "type": "color",
+        "value": "{color.neutral.300}"
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary.300}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.states.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.states.warning}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{color.neutral.500}"
+      },
+      "attention": {
+        "type": "color",
+        "value": "{color.states.attention}"
+      },
+      "container": {
+        "type": "color",
+        "value": "{color.neutral.700}"
+      }
+    },
+    "background": {
+      "icon": {
+        "type": "color",
+        "value": "{color.primary.900}"
+      },
+      "info": {
+        "type": "color",
+        "value": "{color.states.info}",
+        "description": "cor de fundo para elementos visuais que têm como finalidade o repasse de informações relevantes ao fluxo\n"
+      },
+      "brand": {
+        "alt": {
+          "type": "color",
+          "value": "{color.primary.400}",
+          "description": "cor da marca para uso em sites secundários, diretorias, células, julgadorias..."
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.primary.500}",
+          "description": "cor para uso em fundos quando a cor da marca é necessária"
+        }
+      },
+      "action": {
+        "accent": {
+          "hover": {
+            "type": "color",
+            "value": "{color.neutral.900}"
+          },
+          "active": {
+            "type": "color",
+            "value": "{color.primary.900}"
+          },
+          "default": {
+            "type": "color",
+            "value": "{color.neutral.950}",
+            "description": "cor de contraste para utilização sobre a cor action default"
+          }
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.primary.500}"
+        },
+        "primary": {
+          "hover": {
+            "type": "color",
+            "value": "{color.primary.600}",
+            "description": "cor para elementos action quando o mouse for passado em cima (HOVER)"
+          },
+          "active": {
+            "type": "color",
+            "value": "{color.primary.200}",
+            "description": "cor para elementos action quando pressionados (PRESSED)"
+          },
+          "default": {
+            "type": "color",
+            "value": "{color.primary.500}",
+            "description": "cor para actions em geral"
+          }
+        },
+        "warning": {
+          "primary": {
+            "hover": {
+              "type": "color",
+              "value": "{color.states.warning}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "space": "hsl",
+                    "value": "0.1"
+                  }
+                }
+              },
+              "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+            },
+            "default": {
+              "type": "color",
+              "value": "{color.states.warning}",
+              "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "{color.states.warning}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "space": "lch",
+                    "value": "0.15"
+                  }
+                }
+              },
+              "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+            }
+          },
+          "secondary": {
+            "hover": {
+              "type": "color",
+              "value": "{color.neutral.900}"
+            },
+            "active": {
+              "type": "color",
+              "value": "{color.states.warning}",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "space": "lch",
+                    "value": "0.7"
+                  }
+                }
+              }
+            },
+            "default": {
+              "type": "color",
+              "value": "{color.neutral.950}"
+            }
+          }
+        },
+        "disabled": {
+          "default": {
+            "type": "color",
+            "value": "{color.background.disabled.default}"
+          }
+        }
+      },
+      "active": {
+        "type": "color",
+        "value": "{color.primary.600}"
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary.300}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.states.success}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "space": "hsl",
+              "value": "0.72"
+            }
+          }
+        },
+        "description": "cor fundo para elementos que desejam informar o sucesso de uma operação"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.states.warning}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "space": "hsl",
+              "value": "0.85"
+            }
+          }
+        },
+        "description": "cor de fundo para uso em elementos cuja finalidade é informar um erro"
+      },
+      "disabled": {
+        "no-bg": {
+          "type": "color",
+          "value": "{color.neutral.950}",
+          "description": "cor de fundo para elementos desabilitados porém que container não apresenta FILL com a cor para desabilitado."
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.neutral.800}",
+          "description": "cor de fundo para elementos desabilitados"
+        }
+      },
+      "attention": {
+        "type": "color",
+        "value": "{color.states.attention}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "space": "lch",
+              "value": "0.75"
+            }
+          }
+        }
+      },
+      "container": {
+        "dark": {
+          "type": "color",
+          "value": "{color.neutral.300}"
+        },
+        "hover": {
+          "type": "color",
+          "value": "{color.neutral.800}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "space": "lch",
+                "value": "0.3"
+              }
+            }
+          }
+        },
+        "active": {
+          "type": "color",
+          "value": "{color.primary.900}"
+        },
+        "primary": {
+          "type": "color",
+          "value": "{color.neutral.950}",
+          "description": "cor de fundo principal"
+        },
+        "inactive": {
+          "type": "color",
+          "value": "{color.neutral.500}"
+        },
+        "terciary": {
+          "type": "color",
+          "value": "{color.neutral.800}",
+          "description": "Cor de fundo para ser usada sobre a primária.\n\nSugere-se que seja usado em headers de forms ou filtros."
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.neutral.900}",
+          "description": "Cor de fundo para ser usada sobre a primária.\n\nPode ser usado em cards e containers semelhantes.\n"
+        }
+      }
+    },
+    "foreground": {
+      "line": {
+        "default": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        },
+        "on-brand": {
+          "type": "color",
+          "value": "{color.primary.600}",
+          "description": "Uso em fundos cujo background color é o token color.background.brand.default"
+        }
+      },
+      "action": {
+        "active": {
+          "type": "color",
+          "value": "{color.primary.600}"
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.primary.500}",
+          "description": "cor para actions em geral"
+        },
+        "on-site": {
+          "type": "color",
+          "value": "{color.primary.300}",
+          "description": "cor para actions em geral"
+        }
+      },
+      "default": {
+        "type": "color",
+        "value": "{color.neutral.300}"
+      },
+      "on-dark": {
+        "primary": {
+          "type": "color",
+          "value": "{color.neutral.950}"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        }
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary.300}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.states.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.states.warning}"
+      },
+      "disabled": {
+        "nobg": {
+          "type": "color",
+          "value": "{color.neutral.600}",
+          "description": "Cor para elementos desabilitados em situação que não estejam dentro de um elemento cujo o fundo também se apresente desabilitado. Ex: Um text link sobre um fundo braco."
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.neutral.500}",
+          "description": "cor de foreground para elementos desabilitados"
+        }
+      },
+      "on-light": {
+        "primary": {
+          "type": "color",
+          "value": "{color.neutral.100}"
+        },
+        "terciary": {
+          "type": "color",
+          "value": "{color.neutral.500}"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.neutral.300}"
+        }
+      }
+    }
+  }
+}

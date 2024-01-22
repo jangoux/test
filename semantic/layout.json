@@ -1,0 +1,281 @@
+{
+  "size": {
+    "50": {
+      "type": "sizing",
+      "value": "{dimension.4}"
+    },
+    "100": {
+      "type": "sizing",
+      "value": "{dimension.12}"
+    },
+    "200": {
+      "type": "sizing",
+      "value": "{dimension.16}"
+    },
+    "300": {
+      "type": "sizing",
+      "value": "{dimension.24}"
+    },
+    "400": {
+      "type": "sizing",
+      "value": "{dimension.32}"
+    },
+    "500": {
+      "type": "sizing",
+      "value": "{dimension.40}"
+    },
+    "600": {
+      "type": "sizing",
+      "value": "{dimension.48}"
+    },
+    "700": {
+      "type": "sizing",
+      "value": "{dimension.56}"
+    },
+    "800": {
+      "type": "sizing",
+      "value": "{dimension.72}"
+    },
+    "line": {
+      "type": "sizing",
+      "value": "{dimension.1}"
+    },
+    "input": {
+      "md": {
+        "type": "sizing",
+        "value": "{size.700}"
+      },
+      "sm": {
+        "type": "sizing",
+        "value": "{size.600}"
+      }
+    },
+    "button": {
+      "lg": {
+        "type": "sizing",
+        "value": "{size.700}",
+        "description": "Botões usados em formulários ou para finalizar fluxos."
+      },
+      "md": {
+        "type": "sizing",
+        "value": "{size.600}"
+      },
+      "sm": {
+        "type": "sizing",
+        "value": "{size.500}",
+        "description": "botão padrão / default."
+      },
+      "xlg": {
+        "type": "sizing",
+        "value": "{size.800}",
+        "description": "Somente usando no botão Big Button."
+      },
+      "xsm": {
+        "type": "sizing",
+        "value": "{size.400} + {size.50}",
+        "description": "botão usado dentro de tabelas."
+      }
+    }
+  },
+  "border": {
+    "none": {
+      "type": "borderWidth",
+      "value": "{border.width.none}"
+    },
+    "radius": {
+      "lg": {
+        "type": "borderRadius",
+        "value": "{dimension.40}"
+      },
+      "md": {
+        "type": "borderRadius",
+        "value": "{dimension.10} * 2"
+      },
+      "sm": {
+        "type": "borderRadius",
+        "value": "{dimension.8}"
+      },
+      "xlg": {
+        "type": "borderRadius",
+        "value": "{dimension.100}"
+      },
+      "xsm": {
+        "type": "borderRadius",
+        "value": "{dimension.4}"
+      },
+      "none": {
+        "type": "borderRadius",
+        "value": "{dimension.0}"
+      },
+      "default": {
+        "type": "borderRadius",
+        "value": "{border.radius.xsm}"
+      }
+    },
+    "default": {
+      "type": "borderWidth",
+      "value": "{border.width.sm}"
+    },
+    "interaction": {
+      "type": "borderWidth",
+      "value": "{border.width.md}"
+    }
+  },
+  "padding": {
+    "100": {
+      "type": "spacing",
+      "value": "{dimension.4}"
+    },
+    "200": {
+      "type": "spacing",
+      "value": "{dimension.8}"
+    },
+    "300": {
+      "type": "spacing",
+      "value": "{dimension.16}"
+    },
+    "400": {
+      "type": "spacing",
+      "value": "{dimension.24}"
+    },
+    "500": {
+      "type": "spacing",
+      "value": "{dimension.32}"
+    },
+    "600": {
+      "type": "spacing",
+      "value": "{dimension.40}"
+    },
+    "700": {
+      "type": "spacing",
+      "value": "{dimension.48}"
+    },
+    "800": {
+      "type": "spacing",
+      "value": "{dimension.64}"
+    },
+    "900": {
+      "type": "spacing",
+      "value": "{dimension.88}"
+    },
+    "card": {
+      "lg": {
+        "type": "spacing",
+        "value": "{padding.800}"
+      },
+      "md": {
+        "type": "spacing",
+        "value": "{dimension.32}"
+      }
+    },
+    "none": {
+      "type": "spacing",
+      "value": "{dimension.0}"
+    },
+    "dialog": {
+      "type": "spacing",
+      "value": "{padding.600}"
+    },
+    "accordion": {
+      "type": "spacing",
+      "value": "{padding.500}"
+    }
+  },
+  "spacing": {
+    "50": {
+      "type": "spacing",
+      "value": "{dimension.4}"
+    },
+    "100": {
+      "type": "spacing",
+      "value": "{dimension.8}"
+    },
+    "200": {
+      "type": "spacing",
+      "value": "{dimension.16}"
+    },
+    "250": {
+      "type": "spacing",
+      "value": "{dimension.20}"
+    },
+    "300": {
+      "type": "spacing",
+      "value": "{dimension.24}"
+    },
+    "400": {
+      "type": "spacing",
+      "value": "{dimension.32}"
+    },
+    "500": {
+      "type": "spacing",
+      "value": "{dimension.40}"
+    },
+    "600": {
+      "type": "spacing",
+      "value": "{dimension.48}"
+    },
+    "700": {
+      "type": "spacing",
+      "value": "{dimension.56}"
+    },
+    "800": {
+      "type": "spacing",
+      "value": "{dimension.64}"
+    },
+    "900": {
+      "type": "spacing",
+      "value": "{dimension.88}"
+    },
+    "card": {
+      "lg": {
+        "type": "spacing",
+        "value": "{spacing.300}"
+      },
+      "md": {
+        "type": "spacing",
+        "value": "{spacing.200}"
+      },
+      "sm": {
+        "type": "spacing",
+        "value": "{spacing.100}"
+      }
+    },
+    "form": {
+      "lg": {
+        "type": "spacing",
+        "value": "{dimension.40}",
+        "description": "Usado para formulários com poucos itens / inputs"
+      },
+      "md": {
+        "type": "spacing",
+        "value": "{dimension.32}",
+        "description": "Espaço padrão entre elementos de um formulário.\n"
+      },
+      "sm": {
+        "type": "spacing",
+        "value": "{dimension.24}",
+        "description": "Usado para formulários de busca / filtros densos, com muitos inputs"
+      },
+      "default": {
+        "type": "spacing",
+        "value": "{spacing.form.md}"
+      }
+    },
+    "none": {
+      "type": "spacing",
+      "value": "{dimension.0}"
+    },
+    "footer": {
+      "md": {
+        "type": "spacing",
+        "value": "{dimension.10}",
+        "description": "Espaço entre o título das sessões e os itens de navegação"
+      },
+      "sm": {
+        "type": "spacing",
+        "value": "{dimension.5}",
+        "description": "Espaço entre os itens de navegação do footer.\n"
+      }
+    }
+  }
+}
