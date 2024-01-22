@@ -1,0 +1,30 @@
+name: Setup Style Dictionary
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup-style-dictionary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Style Dictionary
+        run: npm install -g style-dictionary
+
+      - name: Create Directory
+        run: mkdir MyStyleD
+
+      - name: Change Directory
+        run: cd MyStyleD
+
+ 
