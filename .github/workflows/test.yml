@@ -13,9 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Create Build Directory
-        run: |
-          mkdir test
-          mkdir test/css
-
-      # Add more steps as needed for your workflow
+    - name: Create Build Directory
+  run: |
+    mkdir $GITHUB_WORKSPACE/build
+    mkdir $GITHUB_WORKSPACE/build/css
