@@ -15,5 +15,5 @@ jobs:
 
     - name: Create Build Directory
   run: |
-    mkdir $GITHUB_WORKSPACE/build
-    mkdir $GITHUB_WORKSPACE/build/css
+    mkdir $GITHUB_WORKSPACE/test
+    mkdir $GITHUB_WORKSPACE/test/css
