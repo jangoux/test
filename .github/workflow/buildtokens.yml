@@ -1,0 +1,22 @@
+name: Build Tokens
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Run build-tokens.mjs
+        run: node build-tokens.mjs
