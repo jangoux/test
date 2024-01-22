@@ -23,10 +23,7 @@ jobs:
         run: npm install -g style-dictionary
 
       - name: Create Directory
-        run: mkdir MyStyleD
-
-      - name: Change Directory
-        run: cd MyStyleD
+        run: mkdir  /MyStyleD
 
       - name: Initialize Style Dictionary (basic)
         run: style-dictionary init basic
